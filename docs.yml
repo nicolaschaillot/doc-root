@@ -9,7 +9,6 @@ content:
     branches: master
   - url: https://github.com/nicolaschaillot/doc-module2.git
     branches: master
-    start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
