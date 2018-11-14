@@ -1,0 +1,26 @@
+= Keendoo documentation Site and Playbook Project
+// :idprefix:
+// :idseparator: -
+// URIs:
+:uri-project: https://www.keendoo.com
+
+This is the playbook project for the Keendoo documentation site.
+
+To generate the demo site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
+
+== Playbook
+
+An {uri-docs-playbook}[Antora playbook] is responsible for generating a documentation site.
+It contains the instructions a user wants to relay to an Antora site generator pipeline.
+These instructions include the content Antora should collect and the UI it should apply to the generated site.
+
+The file [.path]_docs.yml_ in this repository is the playbook used to produce the demo site.
+It tells Antora where to find the Component A and Component B remote content repositories and default UI.
+
+== Generate the Demo Site
+
+Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([.path]_docs.yml_) to a local directory, you're ready to {uri-docs-run}[run Antora].
+
+== Copyright and License
+
+Copyright (C) 2018 Keendoo SAS.
