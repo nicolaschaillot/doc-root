@@ -2,7 +2,7 @@ site:
   title: Root doc Site
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://example.org/docs
-  start_page: module-1::index.adoc
+  start_page: module-1::home-module-1.adoc
 content:
   sources:
   - url: https://github.com/nicolaschaillot/doc-module1.git
