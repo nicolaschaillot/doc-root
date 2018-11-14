@@ -7,6 +7,12 @@ This is the playbook project for the Root documentation site.
 
 To generate the demo site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
 
+== Test
+> antora --pull docs.yml (pull tu pdate cache - Not mandatory for a first test)
+
+> serve build/site
+
+
 == Playbook
 
 An {uri-docs-playbook}[Antora playbook] is responsible for generating a documentation site.
