@@ -1,10 +1,9 @@
-= Keendoo documentation Site and Playbook Project
+= Root documentation Site and Playbook Project
 // :idprefix:
 // :idseparator: -
 // URIs:
-:uri-project: https://www.keendoo.com
 
-This is the playbook project for the Keendoo documentation site.
+This is the playbook project for the Root documentation site.
 
 To generate the demo site using this playbook project and the demo documentation components, you'll need to {uri-docs-install}[install the Antora CLI and default site generator].
 
@@ -23,4 +22,4 @@ Once you've installed Antora and {uri-demo-playbook}[saved the demo playbook] ([
 
 == Copyright and License
 
-Copyright (C) 2018 Keendoo SAS.
+Copyright (C) 2018 Nicol@s.
